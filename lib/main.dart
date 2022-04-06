@@ -1,4 +1,8 @@
 import 'package:flutter/material.dart';
+import 'package:starter_ui_socialmediaplatform/responsive/mobile_scrren_layout.dart';
+import 'package:starter_ui_socialmediaplatform/responsive/responsive_layout_screen.dart';
+import 'package:starter_ui_socialmediaplatform/responsive/web_screen_layout.dart';
+import 'package:starter_ui_socialmediaplatform/utils/colors/colors.dart';
 
 import 'Pages/homescreen.dart';
 
@@ -13,12 +17,13 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Flutter Demo',
-      theme: ThemeData(
-          //backgroundColor: Colors.black
-      ),
-      home: HomeScreen(),
+      title: 'Social media ui starter',
+      debugShowCheckedModeBanner: false,
+      theme: ThemeData.dark().copyWith(scaffoldBackgroundColor: mobileBackgroundColor),
+      home:const ResponsiveLayout(mobileScreenLayout:MobileScreenLayout() ,webScrrenLayout:WebScreenLayout() )
     );
+      //HomeScreen(),
+    //);
   }
 }
 
