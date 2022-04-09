@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "463288636504",
+    "project_id": "socialmediaplatform-fef1c",
+    "storage_bucket": "socialmediaplatform-fef1c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:463288636504:android:6dcea80579ecbb5b35662d",
+        "android_client_info": {
+          "package_name": "com.example.starter_ui_socialmediaplatform"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "463288636504-qtfkhgo3opqsnkmt24oj97qhcq277moj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBGoEZsn96twPjAZ4CgxvtpzXr1B9R8kOk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "463288636504-qtfkhgo3opqsnkmt24oj97qhcq277moj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
